@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/cis-operator:v1.0.13 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/cis-operator:v1.0.13
+        skopeo copy docker://docker.io/rancher/coreos-kube-state-metrics:v1.9.7 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/coreos-kube-state-metrics:v1.9.7
