@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-k8s-dns-node-cache:1.22.28 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-k8s-dns-node-cache:1.22.28
+        skopeo copy docker://docker.io/rancher/mirrored-k8s-dns-sidecar:1.22.28 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-k8s-dns-sidecar:1.22.28
