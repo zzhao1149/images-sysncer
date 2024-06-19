@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/hardened-cluster-autoscaler:v1.8.6-build20230609 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-cluster-autoscaler:v1.8.6-build20230609
+        skopeo copy docker://docker.io/rancher/hardened-cni-plugins:v1.4.1-build20240325 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-cni-plugins:v1.4.1-build20240325
