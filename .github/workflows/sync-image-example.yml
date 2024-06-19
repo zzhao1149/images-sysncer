@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-calico-operator:v1.32.7 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-calico-operator:v1.32.7
+        skopeo copy docker://docker.io/rancher/mirrored-coreos-etcd:v3.5.10 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-coreos-etcd:v3.5.10
