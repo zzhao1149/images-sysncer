@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/rancher-agent:v2.8.5 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/rancher-agent:v2.8.5
+        skopeo copy docker://docker.io/rancher/rancher-webhook:v0.4.7 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/rancher-webhook:v0.4.7
