@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-istio-install-cni:1.21.1-distroless docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-istio-install-cni:1.21.1-distroless
+        skopeo copy docker://docker.io/rancher/mirrored-istio-pilot:1.21.1-distroless docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-istio-pilot:1.21.1-distroless
