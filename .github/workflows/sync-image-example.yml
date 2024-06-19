@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/hardened-calico:v3.27.3-build20240423 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-calico:v3.27.3-build20240423
+        skopeo copy docker://docker.io/rancher/hardened-calico:v3.27.2-build20240308 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-calico:v3.27.2-build20240308
