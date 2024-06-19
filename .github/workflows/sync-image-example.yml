@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/hardened-etcd:v3.5.9-k3s1-build202404186 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-etcd:v3.5.9-k3s1-build202404186
+        skopeo copy docker://docker.io/rancher/hardened-etcd:v3.5.9-k3s1-build20240418 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-etcd:v3.5.9-k3s1-build20240418
