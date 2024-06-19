@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-jaegertracing-all-in-one:1.56.0 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-jaegertracing-all-in-one:1.56.0
+        skopeo copy docker://docker.io/rancher/mirrored-kiali-kiali:v1.79.0 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-kiali-kiali:v1.79.0
