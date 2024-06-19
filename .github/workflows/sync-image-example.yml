@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/flannel-cni:v0.3.0-rancher7 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/flannel-cni:v0.3.0-rancher7
+        skopeo copy docker://docker.io/rancher/flannel-cni:v0.3.0-rancher8 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/flannel-cni:v0.3.0-rancher8
