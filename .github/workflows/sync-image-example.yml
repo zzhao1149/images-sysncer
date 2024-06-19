@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/gke-operator:v1.2.2 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/gke-operator:v1.2.2
+        skopeo copy docker://docker.io/rancher/grafana-grafana:7.1.5 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/grafana-grafana:7.1.5
