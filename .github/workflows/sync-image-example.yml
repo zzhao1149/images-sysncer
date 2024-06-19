@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/hardened-coredns:v1.11.1-build20240305 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-coredns:v1.11.1-build20240305
+        skopeo copy docker://docker.io/rancher/hardened-dns-node-cache:1.22.28-build20240125 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/hardened-dns-node-cache:1.22.28-build20240125
