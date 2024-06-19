@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/kubectl:v1.27.11 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/kubectl:v1.27.11
+        skopeo copy docker://docker.io/rancher/mirrored-jimmidyson-configmap-reload:v0.8.0 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-jimmidyson-configmap-reload:v0.8.0
