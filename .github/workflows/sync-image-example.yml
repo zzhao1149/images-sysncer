@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-kubernetes-external-dns:v0.7.3 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-kubernetes-external-dns:v0.7.3
+        skopeo copy docker://docker.io/rancher/mirrored-calico-kube-controllers:v3.27.3 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-calico-kube-controllers:v3.27.3
