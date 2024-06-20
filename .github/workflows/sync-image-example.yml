@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/rancher/mirrored-metrics-server:v0.7.0 docker://registry.cn-hangzhou.aliyuncs.com/rancher-images/mirrored-metrics-server:v0.7.0
+        skopeo copy docker://docker.io/rancher/gitea/gitea:1.22.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/gitea/gitea:1.22.0
