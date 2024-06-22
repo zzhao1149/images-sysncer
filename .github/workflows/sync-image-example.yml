@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/calico/cni:v3.25.1-37-gb280dfe364ef-amd64 docker://registry.cn-hangzhou.aliyuncs.com/anli-images/calico/cni:v3.25.1-37-gb280dfe364ef-amd64
+        skopeo copy docker://docker.io/calico/cni:v3.25.0-56-g61ec8b75a987 docker://registry.cn-hangzhou.aliyuncs.com/anli-images/calico/cni:v3.25.0-56-g61ec8b75a987
